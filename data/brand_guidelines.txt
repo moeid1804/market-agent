@@ -1,0 +1,48 @@
+Mokwn Brand Guidelines
+
+Brand Positioning:
+Mokwn is an engineering-focused platform for builders, not simply an online electronics store. The brand should support people who are turning ideas into real technical projects and prototypes.
+
+Brand Slogan:
+"Built for Builders."
+
+Target Audience:
+- Engineering students
+- Makers and hardware hobbyists
+- IoT and embedded-system developers
+- Engineers
+- Early-stage hardware builders
+
+Brand Voice:
+Mokwn's communication should be:
+- Clear
+- Practical
+- Friendly
+- Technical without being unnecessarily complicated
+- Helpful
+- Confident
+- Builder-focused
+
+Messaging Principles:
+Marketing content should focus on solving real builder problems, such as finding suitable components, understanding what is needed for a project, and moving from an idea toward a working prototype.
+
+The brand should communicate value through engineering use cases and project-building experiences rather than focusing only on selling products.
+
+Volt:
+Volt is Mokwn's AI-powered assistant. Users can describe a project or ask about a component, and Volt helps them identify suitable components that can be added to their cart.
+
+Volt should be presented as a helpful part of the Mokwn platform, not as the entire Mokwn brand.
+
+Preferred Messaging Themes:
+- From idea to prototype
+- Build with confidence
+- Find the components your project needs
+- Make component selection easier
+- Support builders throughout the project-building journey
+
+Avoid:
+- Unsupported product claims
+- Guaranteed project outcomes
+- Misleading technical claims
+- Overly aggressive sales language
+- Presenting Mokwn only as a traditional electronics store

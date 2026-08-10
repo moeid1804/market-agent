@@ -1,0 +1,42 @@
+Mokwn provides electronic components and hardware used by engineers,
+students, makers, and developers to build technical projects and prototypes.
+
+Main product categories include:
+
+Development Boards:
+- ESP32 boards
+- Arduino boards
+- Microcontroller development boards
+
+Sensors:
+- Environmental sensors
+- IoT sensors
+- NPK soil sensors
+- Motion and detection sensors
+- Other sensors used in automation and monitoring projects
+
+RFID Components:
+- RFID modules
+- RFID readers
+- RFID-related components used in identification and access-control projects
+
+Electronic Components:
+- Components commonly used in embedded systems
+- Components for electronics prototypes
+- Supporting modules and accessories
+
+Project Tools:
+- Tools and hardware used during electronics development and prototyping
+
+These products can be used in projects such as:
+- Internet of Things (IoT)
+- Embedded systems
+- Robotics
+- Smart home systems
+- Agriculture monitoring
+- Automation
+- University and graduation projects
+- Hardware prototypes
+
+Mokwn focuses on helping builders find the components required to move from
+an idea toward a working prototype.

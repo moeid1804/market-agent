@@ -1,0 +1,23 @@
+Mokwn is an online electronics components platform designed for engineers,
+engineering students, makers, developers, IoT builders, and hardware hobbyists.
+
+Mokwn helps builders move from an idea to a working prototype by providing
+electronic components, development boards, sensors, and project-building tools
+through one online platform.
+
+The platform is designed around real technical projects rather than only
+selling individual components. Typical use cases include IoT systems,
+embedded systems, automation, robotics, university projects, and hardware
+prototypes.
+
+Mokwn aims to make component discovery and selection easier for builders who
+may know what they want to create but do not necessarily know every component
+required.
+
+Mokwn also includes Volt, an AI-powered assistant. Users can describe their
+project or ask about a component, and Volt helps identify suitable components
+that can be added to their cart.
+
+Mokwn's brand slogan is:
+
+"Built for Builders."

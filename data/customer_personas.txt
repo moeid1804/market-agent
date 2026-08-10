@@ -1,0 +1,60 @@
+Mokwn.com serves several customer segments with different technical needs.
+
+Persona 1: Engineering Student
+
+Typical profile:
+- University student studying engineering or computer science
+- Builds course projects, graduation projects, and prototypes
+- Interested in Arduino, ESP32, sensors, robotics, and IoT
+- Often has limited budget
+- May know the project idea but not all required components
+- Values clear guidance and easy component selection
+
+Common goals:
+- Complete university projects successfully
+- Find compatible components quickly
+- Learn while building
+- Avoid buying unnecessary or incompatible parts
+
+
+Persona 2: Maker and Hobbyist
+
+Typical profile:
+- Enjoys electronics and DIY projects
+- Experiments with microcontrollers, sensors, automation, and smart devices
+- Frequently builds personal prototypes
+- Interested in discovering new components and project ideas
+
+Common goals:
+- Explore new technologies
+- Build creative projects
+- Find components conveniently in one place
+
+
+Persona 3: IoT and Embedded Developer
+
+Typical profile:
+- Developer or engineer building IoT or embedded systems
+- Uses development boards, sensors, communication modules, and supporting components
+- More technically experienced than beginner users
+- Values component specifications, compatibility, and availability
+
+Common goals:
+- Build reliable prototypes
+- Find suitable components efficiently
+- Reduce time spent searching across multiple stores
+
+
+Persona 4: Early-Stage Hardware Builder
+
+Typical profile:
+- Has an idea for a hardware product or prototype
+- May understand the desired system but not every required component
+- Needs help translating the idea into a practical hardware setup
+
+Common goals:
+- Move from idea to prototype
+- Identify required components
+- Reduce uncertainty during component selection
+
+Volt can support these users by helping them identify suitable components based on their project or technical question.
