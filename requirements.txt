@@ -2,3 +2,5 @@ openai
 pydantic
 python-dotenv
 groq
+langchain-groq
+langchain-openai
