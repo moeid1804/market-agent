@@ -6,16 +6,3 @@ def split_documents(documents):
     )
     split_docs = text_splitter.split_documents(documents)
     return split_docs
-if __name__ == "__main__":
-    from rag.loader import load_documents
-
-    documents = load_documents()
-    chunks = split_documents(documents)
-
-    print("Documents:", len(documents))
-    print("Chunks:", len(chunks))
-
-    for chunk in chunks:
-        print(chunk.metadata)
-        print(chunk.page_content)
-        print("-" * 50)

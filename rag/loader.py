@@ -11,10 +11,3 @@ def load_documents(data_dir:str="data"):
         )
         documents.append(document) 
     return documents
-if __name__ == "__main__":
-    documents = load_documents()
-
-    for document in documents:
-        print(document.metadata["source"])
-        print(document.page_content[:100])
-        print("-" * 50)
