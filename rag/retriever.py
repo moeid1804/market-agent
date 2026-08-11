@@ -1,20 +1,16 @@
-from .vector_store import create_vector_store, get_vector_store
+from rag.vector_store import get_vector_store
 
-def get_retriever():
-    vectore_store = get_vector_store()
-    return vectore_store.as_retriever(
-        search_kwargs={"k": 3}
-    )
-if __name__ == "__main__":
-    retriever = get_retriever()
 
-    documents = retriever.invoke(
-        "What products are useful for IoT projects?"
-    )
+def get_retriever_score(query, k=3):
+    vector_store = get_vector_store()
 
-    for document in documents:
-        print(document.metadata)
-        print(document.page_content)
-        print("-" * 50)
+    try:
+        results = vector_store.similarity_search_with_relevance_scores(
+            query,
+            k=k
+        )
 
-    retriever.vectorstore.client.close()
+        return results
+
+    finally:
+        vector_store.client.close()
