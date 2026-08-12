@@ -3,6 +3,7 @@ from rag.retriever import get_retriever_score
 from prompts.prompt_markting import marketing_prompt
 from schemas.ResponseModel import ResponseModel, LLMModel
 from statistics import mean
+from guardrails.validator import validate_strategy
 
 def format_context(documents):
     context=""
@@ -47,10 +48,16 @@ def run_agent(query:str):
         }
     )
     structured_response = llm.with_structured_output(LLMModel)
-    response = structured_response.invoke(prompt)
+    strategy = structured_response.invoke(prompt)
+
+    validate_strategy(
+        strategy=strategy,
+        context=context,
+        confidence=confidence
+    )
 
     final_response = ResponseModel(
-        **response.model_dump(),
+        **strategy.model_dump(),
         source=sources,
         confidence=confidence
     )
@@ -58,8 +65,14 @@ def run_agent(query:str):
     return final_response
 
 if __name__ == "__main__":
-    query = "Create a marketing campaign for engineering students interested in IoT."
+    query = (
+        "Create a marketing campaign for "
+        "engineering students interested in IoT."
+    )
 
-    result = run_agent(query)
+    try:
+        result = run_agent(query)
+        print(result)
 
-    print(result)
+    except ValueError as error:
+        print(f"Error: {error}")
