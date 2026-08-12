@@ -1,3 +1,4 @@
+from functools import lru_cache
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 from .loader import load_documents
@@ -19,7 +20,7 @@ def create_vector_store():
         
     )
     return vector_store
-
+@lru_cache(maxsize=1)
 def get_vector_store():
     embeddings = get_embedding()
     client = QdrantClient(path=QDRANT_PATH)
